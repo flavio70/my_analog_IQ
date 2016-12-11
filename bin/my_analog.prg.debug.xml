@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="20" pc="268435456" symbol="draw"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="21" pc="268435460" symbol="draw"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="37" pc="268435530" symbol="initialize"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="38" pc="268435534" symbol="initialize"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="42" pc="268435553" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="44" pc="268435557" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="45" pc="268435594" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="46" pc="268435619" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="48" pc="268435644" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="49" pc="268435675" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="50" pc="268435706" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="51" pc="268435725" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="53" pc="268435744" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="54" pc="268435766" symbol="onLayout"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="60" pc="268435789" symbol="onShow"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="64" pc="268435794" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="66" pc="268435798" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="67" pc="268435815" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="68" pc="268435889" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="69" pc="268435913" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="70" pc="268435937" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="71" pc="268435947" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="74" pc="268435957" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="75" pc="268435971" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="76" pc="268435996" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="77" pc="268436021" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="80" pc="268436046" symbol="onUpdate"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="87" pc="268436067" symbol="onHide"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="91" pc="268436072" symbol="onExitSleep"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogView.mc" lineNum="95" pc="268436077" symbol="onEnterSleep"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="5" pc="268436082" symbol="initialize"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="6" pc="268436086" symbol="initialize"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="10" pc="268436105" symbol="onStart"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="14" pc="268436110" symbol="onStop"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="18" pc="268436115" symbol="getInitialView"/>
+<entry filename="/Users/flavioippolito/Documents/workspace/my_analog/source/my_analogApp.mc" lineNum="19" pc="268436119" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="17" pc="268436157" symbol="initialize"/>
+<entry filename="Rez" lineNum="18" pc="268436161" symbol="initialize"/>
+<entry filename="Rez" lineNum="21" pc="268436186" symbol="draw"/>
+<entry filename="Rez" lineNum="22" pc="268436190" symbol="draw"/>
+<entry filename="Rez" lineNum="23" pc="268436197" symbol="draw"/>
+<entry filename="Rez" lineNum="24" pc="268436204" symbol="draw"/>
+<entry filename="Rez" lineNum="25" pc="268436217" symbol="draw"/>
+<entry filename="Rez" lineNum="26" pc="268436230" symbol="draw"/>
+<entry filename="Rez" lineNum="29" pc="268436253" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="31" pc="268436257" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="32" pc="268436293" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="34" pc="268436347" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="35" pc="268436383" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="48" pc="268436438" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="50" pc="268436442" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="51" pc="268436517" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="52" pc="268436665" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="53" pc="268436690" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="54" pc="268436742" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="55" pc="268436778" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="56" pc="268436805" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="58" pc="268436821" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="61" pc="268436864" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="12" object="true" symbol="my_analogApp"/>
+<entry id="10" object="true" symbol="CustomMoveBar"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="21" object="true" symbol="Smiley"/>
+<entry field="true" id="28" symbol="TWO_PI"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" symbol="Lang"/>
+<entry field="true" id="27" symbol="hour_radius"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="22" method="true" symbol="drawComplex"/>
+<entry id="11" object="true" symbol="my_analogView"/>
+<entry id="9" module="true" symbol="mySet"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="26" symbol="minute_radius"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="8389375" method="true" symbol="WatchFace"/>
+<entry id="8388641" symbol="Math"/>
+<entry field="true" id="20" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="13" symbol="myTEST"/>
+<entry field="true" id="17" symbol="y1"/>
+<entry field="true" id="16" symbol="y0"/>
+<entry id="19" module="true" symbol="Layouts"/>
+<entry field="true" id="15" symbol="x1"/>
+<entry field="true" id="14" symbol="x0"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="25" symbol="center_y"/>
+<entry field="true" id="24" symbol="center_x"/>
+<entry field="true" id="8389892" symbol="background"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="18" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436066" name="hour" stackId="6" startPc="268435798"/>
+<entry endPc="268436066" name="view" stackId="4" startPc="268435798"/>
+<entry endPc="268436066" name="smile" stackId="5" startPc="268435798"/>
+<entry endPc="268436066" name="timeString" stackId="3" startPc="268435798"/>
+<entry endPc="268436066" name="clockTime" stackId="2" startPc="268435798"/>
+<entry endPc="268436066" name="minute" stackId="7" startPc="268435798"/>
+<entry endPc="268436252" name="pWidth" stackId="4" startPc="268436190"/>
+<entry endPc="268436252" name="pY" stackId="3" startPc="268436190"/>
+<entry endPc="268436252" name="pX" stackId="2" startPc="268436190"/>
+<entry endPc="268436252" name="pHeight" stackId="5" startPc="268436190"/>
+<entry endPc="268436911" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268436442"/>
+<entry endPc="268436911" name="rez_cmp_local_bitmap_background" stackId="2" startPc="268436442"/>
+<entry endPc="268436911" name="rez_cmp_local_custom_drawable_Smiley" stackId="5" startPc="268436442"/>
+<entry endPc="268436911" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268436442"/>
+<entry endPc="268436911" name="rez_cmp_local_custom_drawable_MoveBar" stackId="6" startPc="268436442"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="draw" parent="CustomMoveBar">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="my_analogView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="my_analogView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onShow" parent="my_analogView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate" parent="my_analogView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="my_analogView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="my_analogView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="my_analogView">
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="my_analogApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="my_analogApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onStop" parent="my_analogApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getInitialView" parent="my_analogApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="Smiley">
+<documentation/>
+</functionEntry>
+<functionEntry name="draw" parent="Smiley">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawComplex" parent="Smiley">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
