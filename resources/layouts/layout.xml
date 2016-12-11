@@ -2,6 +2,6 @@
 <bitmap id="background" filename="images/round.png" />
 <label id="TimeLabel" x="center" y="120" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
 <drawable id ="Smiley" />
-<drawable id="MoveBar" class="CustomMoveBar">
-	</drawable>
+<drawable id="MinuteBar" class="CustomMinuteBar" />
+<drawable id= "HourBar" class="CustomHourBar" />
 </layout>

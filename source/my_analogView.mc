@@ -7,6 +7,23 @@ using Toybox.Math as Math;
 module mySet {
 
 	var myTEST = 30;
+
+
+ }
+
+module minuteXY {
+
+	var myTEST = 30;
+	var x0 = 0;
+	var x1 = 0;
+	var y0 = 0;
+	var y1 = 0;
+
+ }
+ 
+ 
+module hourXY {
+
 	var x0 = 0;
 	var x1 = 0;
 	var y0 = 0;
@@ -15,10 +32,18 @@ module mySet {
  }
 
 
-class CustomMoveBar extends Ui.Drawable {
+class CustomMinuteBar extends Ui.Drawable {
 
 	function draw(dc) {
-		dc.drawLine(mySet.x0,mySet.y0,mySet.x1,mySet.y1);
+		dc.drawLine(minuteXY.x0,minuteXY.y0,minuteXY.x1,minuteXY.y1);
+	}
+
+ }
+ 
+class CustomHourBar extends Ui.Drawable {
+
+	function draw(dc) {
+		dc.drawLine(hourXY.x0,hourXY.y0,hourXY.x1,hourXY.y1);
 	}
 
  }
@@ -33,6 +58,7 @@ class my_analogView extends Ui.WatchFace {
 	var hour_radius;
 	
 	var TWO_PI = Math.PI * 2;
+	var ANGLE_ADJUST = Math.PI / 2.0;
 
     function initialize() {
         WatchFace.initialize();
@@ -42,15 +68,15 @@ class my_analogView extends Ui.WatchFace {
     function onLayout(dc) {
         
         setLayout(Rez.Layouts.WatchFace(dc));
-        center_x = dc.getWidth() /2;
-        center_y = dc.getHeight() / 2;
         
-        mySet.x0 = dc.getWidth() /2;
-	    mySet.y0 = dc.getHeight() / 2;
-	    mySet.y0 = 80;
-	    mySet.y1 = 80;
+        hourXY.x0 = dc.getWidth() /2;
+        hourXY.y0 = dc.getHeight() / 2;
         
-        minute_radius = 7/8.0 * center_x;
+        minuteXY.x0 = dc.getWidth() /2;
+	    minuteXY.y0 = dc.getHeight() / 2;
+
+        
+        minute_radius = 7/8.0 * minuteXY.x0;
         hour_radius = 2/3.0 * minute_radius;
     }
 
@@ -70,11 +96,21 @@ class my_analogView extends Ui.WatchFace {
         var hour = clockTime.hour;
         var minute = clockTime.min;
         
+        var hour_fraction = minute / 60.0;
+        var minute_angle = hour_fraction * TWO_PI;
+        var hour_angle = ((hour % 12) / 12.0) * TWO_PI;
+        minute_angle -= ANGLE_ADJUST;
+        hour_angle -= ANGLE_ADJUST;
+        
         
         view.setText(timeString);
         mySet.myTEST += 10;
-        mySet.x1 += 10;
-        mySet.y1 += 10;
+        
+        minuteXY.x1 = minuteXY.x0 + minute_radius * Math.cos(minute_angle);
+        minuteXY.y1 = minuteXY.y0 + minute_radius * Math.sin(minute_angle);
+        
+        hourXY.x1 = hourXY.x0 + hour_radius * Math.cos(hour_angle);
+        hourXY.y1 = hourXY.y0 + hour_radius * Math.sin(hour_angle);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
